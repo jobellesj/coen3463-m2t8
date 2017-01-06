@@ -1,0 +1,86 @@
+doctype html
+html(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
+    title Contact Us
+    // CSS
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(href='stylesheets/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+    link(href='stylesheets/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+  body
+    nav.transparent
+      .parallax
+        img(src='./images/event.jpg', alt='Unsplashed background img 1', style='height:500px; width:500px')
+      .nav-wrapper.container
+        a#logo-container.brand-logo.white-text(href='index')
+          img(src='./images/l6.png', style='height:10%; width:30%')
+        ul.right.hide-on-med-and-down
+          li
+            a.white-text(href='index') Home
+          li
+            a.white-text(href='about') About
+          li
+            a.white-text(href='services') Services
+          li
+            a.white-text(href='contact') Contact Us
+        ul#nav-mobile.side-nav
+          li
+            a(href='index') Home
+          li
+            a(href='about') About
+          li
+            a(href='services') Services
+          li
+            a(href='contact') Contact Us
+        a.button-collapse(href='#', data-activates='nav-mobile')
+          i.material-icons menu
+    center
+      #index-banner.parallax-container
+        .section.no-pad-bot
+          br
+          h1.header.center.white-text(style='padding-top:3%; font-size:420%')
+            p(style='text-shadow:4px 4px 4px #666;') Need an Event Planner?
+          p
+          br
+          h1.header.center.white-text
+            p(style='text-shadow:4px 4px 4px #666;') Contact Us Now!
+          p
+    .container
+      form(method='post', action='contact/send')
+        h3 Book an Event Now!
+        .col.s12.m7
+          .card.horizontal
+            .card-image
+              img(src='./images/details.png')
+            .card-stacked
+              .card-content
+                .form-group
+                  label Name
+                  input.form-control(type='text', name='name', placeholder='Enter Full Name', required='', aria-required='true')
+                .form-group
+                  label Email
+                  input.form-control(type='email', name='email', placeholder='Enter your Email', required='', aria-required='true')
+                .form-group
+                  label Type of Event
+                  input.form-control(type='text', name='book', placeholder='Enter the Type of Event', required='', aria-required='true')
+                .form-group
+                  label Message
+                  textarea.form-control(type='text', name='message', placeholder='Enter your Message', required='', aria-required='true')
+              .card-action
+                button.btn.waves-effect.waves-light.pink(type='submit')
+                  | Submit 
+                  i.material-icons.right send
+    footer.page-footer.white
+      .container
+      center
+        .footer-copyright
+          .container
+            a.black-text Created by
+            a.brown-text.text-lighten-3(href='file:///D:/Jobelle/SOFTWARE%20ENGINEERING/pinakamaayos/module1team8/public/index.html') Jocelle L. Tanqui-on and Jobelle H. San Juan
+        center
+          a.brown-text.text-lighten-3 © 2016 Let's Party. All Rights Reserved.
+    // Scripts
+    script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(src='javascripts/materialize.js')
+    script(src='javascripts/init.js')

@@ -1,0 +1,92 @@
+doctype html
+html(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
+    title Debut Services
+    // CSS
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(href='stylesheets/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+    link(href='stylesheets/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+  body
+    nav.transparent
+      .parallax
+        img(src='./images/debut.jpg', alt='Unsplashed background img 1', style='height:500px; width:500px')
+      .nav-wrapper.container
+        a#logo-container.brand-logo.white-text(href='index')
+          img(src='./images/l6.png', style='height:10%; width:30%')
+        ul.right.hide-on-med-and-down
+          li
+            a.white-text(href='index') Home
+          li
+            a.white-text(href='about') About
+          li
+            a.white-text(href='services') Services
+          li
+            a.white-text(href='contact') Contact Us
+        ul#nav-mobile.side-nav
+          li
+            a(href='index') Home
+          li
+            a(href='about') About
+          li
+            a(href='services') Services
+          li
+            a(href='contact') Contact Us
+        a.button-collapse(href='#', data-activates='nav-mobile')
+          i.material-icons menu
+    center
+      #index-banner.parallax-container
+        .section.no-pad-bot
+          br
+          h1.header.center.white-text(style='padding-top:3%; font-size:420%')
+            p(style='text-shadow:4px 4px 4px #666;') Debut Services
+          p
+          br
+          h1.header.center.white-text
+            p(style='text-shadow:4px 4px 4px #666;') We will make the Debutante
+          p
+          h1.header.center.white-text(style='bold')
+            p(style='text-shadow:4px 4px 4px #666;') Feel like a Princess
+          p
+    .col.s12.m9
+      h4.header Debut Services
+      .card.horizontal
+        .card-image
+          br
+          img(src='./images/d4.jpg')
+        .card-stacked
+          .card-content
+            p
+            h5 We will make your Debut the most Memorable of all times.
+            p
+            p Debut Services includes:
+            p Birthday Cake, Invitation and Give-Aways
+            p ------------------------------------------------------
+            p - 30 pieces Debut Invitations
+            p - 2 Layer Icing  Birthday Cake
+            p - 3 Hours Photo booth with Props and STOP TIME
+            p ------------------------------------------------------
+            p Photo and Video Coverage 
+            p (Preparation to Debut Party)
+            p ------------------------------------------------------
+            p - 1 Professional Photographer w/ Digital SLR Camera
+            p - 1 Professional Videographer w/ HD DSLR Video Camera
+            p - Unlimited Shots in DVD Copy
+            p - Edited DVD Mastered Video (20-30 mins)
+          .card-action
+            h3 Price: P 90,000
+    footer.page-footer.white
+      .container
+      center
+        .footer-copyright
+          .container
+            a.black-text Created by
+            i
+              a.brown-text.text-lighten-3(href='https://coen3463-m1t8.herokuapp.com/index.html') Jocelle L. Tanqui-on and Jobelle H. San Juan
+        center
+          a.black-text.text-lighten-3 © 2016 Party Divas Event Planning. All Rights Reserved.
+    // Scripts
+    script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(src='javascripts/materialize.js')
+    script(src='javascripts/init.js')

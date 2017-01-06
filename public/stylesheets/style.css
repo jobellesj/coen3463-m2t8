@@ -1,0 +1,87 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  background: transparent;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/* label color */
+   .form-group label {
+     color: #000;
+   }
+   /* label focus color */
+
+   /* label underline focus color */
+   .form-group input[type=text]:focus {
+     border-bottom: 1px solid #e91e63;
+     box-shadow: 0 1px 0 0 #e91e63;
+   }
+   .form-group input[type=email]:focus {
+     border-bottom: 1px solid #e91e63;
+     box-shadow: 0 1px 0 0 #e91e63;
+   }
+   .form-group textarea[type=email]:focus {
+     border-bottom: 1px solid #e91e63;
+     box-shadow: 0 1px 0 0 #e91e63;
+   }
+  
+   /* icon prefix focus color */
+   .form-group .prefix.active {
+     color: #e91e63;
+   }
+   
+   .btn{
+     background-color: #e91e63;
+     color: white;
+   }
+footer.page-footer {
+  margin: 0;
+}

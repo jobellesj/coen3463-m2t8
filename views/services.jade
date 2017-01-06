@@ -1,0 +1,103 @@
+doctype html
+html(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
+    title Let's Party
+    // CSS
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(href='stylesheets/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
+    link(href='stylesheets/style.css', type='text/css', rel='stylesheet', media='screen,projection')
+  body
+    nav.transparent
+      .parallax
+        img(src='./images/1.gif', alt='Unsplashed background img 1', style='height:700px; width:500px')
+      .nav-wrapper.container
+        a#logo-container.brand-logo.white-text(href='index')
+          img(src='./images/l6.png', style='height:10%; width:30%')
+        ul.right.hide-on-med-and-down
+          li
+            a.white-text(href='index') Home
+          li
+            a.white-text(href='about') About
+          li
+            a.white-text(href='services') Services
+          li
+            a.white-text(href='contact') Contact Us
+        ul#nav-mobile.side-nav
+          li
+            a(href='index') Home
+          li
+            a(href='about') About
+          li
+            a(href='services') Services
+          li
+            a(href='contact') Contact Us
+        a.button-collapse(href='#', data-activates='nav-mobile')
+          i.material-icons menu
+    center
+      #index-banner.parallax-container
+        .section.no-pad-bot
+          h1.header.center.white-text(style='padding-top:3%; font-size:520%')
+            p(style='text-shadow:4px 4px 4px #666;') Services We Provide
+          p
+          h2.header.center.white-text
+            p(style='text-shadow:4px 4px 4px #666;') Debut -Kiddie Party - Wedding - Anniversary  
+          p
+    .row
+      .col.s4.offset-s2.valign
+        .card.center
+          .card-image
+            img(src='./images/kiddie.jpg')
+            span.card-title(style='width:100&') Kiddie Party Service
+          .card-content
+            p
+              | Make your kid's Party extra special. We provide fun and eciting services that will surely make him/her happy!. Your kid will surely be happy !
+          .card-action
+            a(href='kiddie') Go to Kiddie Party Services
+      .col.m4
+        .card.center
+          .card-image
+            img(src='./images/party3.jpg')
+            span.card-title Anniversary Service
+          .card-content
+            p
+              | We will make that onother milestone in yourlife extra special. Not just a simple party but it will surely be a memorable anniversary
+          .card-action
+            a(href='anniversary') Go to Anniversary Services
+    .row
+      .col.s4.offset-s2.valign
+        .card.center
+          .card-image
+            img(src='./images/debut.jpg')
+            span.card-title Debut Service
+          .card-content
+            p
+              | We will make your decade and eight year in the world extra ordinary. We will make your wildest dream come true.
+          .card-action
+            a(href='debut') Go to Debut Services
+      .col.m4
+        .card.center
+          .card-image
+            img(src='./images/wedding.jpg')
+            span.card-title Wedding Service
+          .card-content
+            p
+              | As you tie knot with the one you love , we will make your Wedding super special . And we will provide not just ordinary wedding party.
+          .card-action
+            a(href='wedding') Go to Wedding Services
+    footer.page-footer.white
+      .container
+      center
+        .footer-copyright
+          .container
+            a.black-text Created by
+            i
+              a.brown-text.text-lighten-3(href='https://coen3463-m1t8.herokuapp.com/index.html') Jocelle L. Tanqui-on and Jobelle H. San Juan
+        center
+          a.black-text.text-lighten-3 © 2016 Party Divas Event Planning. All Rights Reserved.
+    | >
+    // Scripts
+    script(src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(src='javascripts/materialize.js')
+    script(src='javascripts/init.js')
