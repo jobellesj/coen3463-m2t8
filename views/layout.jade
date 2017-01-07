@@ -3,17 +3,17 @@ html(lang='en')
   head
     meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no')
-    title Let's Party
+    title Party Divas|Event Planning
     // CSS
     link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
-    link(href='stylesheets/materialize.css', type='text/css', rel='stylesheets', media='screen,projection')
+    link(href='stylesheets/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
     link(href='stylesheets/style.css', type='text/css', rel='stylesheet', media='screen,projection')
   body
     nav.transparent
       .parallax
-        img(src='./images/header.jpg', alt='Unsplashed background img 1', style='height:800px; width:500px')
+        img(src='./images/header.jpg', alt='Unsplashed background img 1', style='height:700px; width:100%')
       .nav-wrapper.container
-        a#logo-container.brand-logo.white-text(href='#')
+        a#logo-container.brand-logo.white-text(href='index.html')
           img(src='./images/l6.png', style='height:10%; width:30%')
         ul.right.hide-on-med-and-down
           li
@@ -38,27 +38,34 @@ html(lang='en')
     center
       #index-banner.parallax-container
         .section.no-pad-bot
-          h1.header.center.white-text(style='padding-top:3%; font-size:420%') We Create. You Celebrate.
-          h5.header.center.white-text We bring you memorable experiences through
-          h5.header.center.white-text creative event planning and management.
+          h3.header.center.white-text(style='padding-top:-5%; font-size:420%')
+            p(style='text-shadow:4px 4px 4px #666;') We Create. You Celebrate.
+          p
+          h5.header.center.white-text
+            p(style='text-shadow:4px 4px 4px #666;') We bring you memorable experiences through
+          p
+          h5.header.center.white-text
+            p(style='text-shadow:4px 4px 4px #666;') Creative event planning and management.
+          p
           .carousel
-            a.carousel-item(href='wedding')
-              img(src='./images/wedding.jpg', style='height:70%; width:130%')
-            a.carousel-item(href='kiddie')
-              img(src='./images/kiddie.jpg', style='height:70%; width:130%')
-            a.carousel-item(href='anniversary')
-              img(src='./images/anniversary.jpg', style='height:70%; width:130%')
-            a.carousel-item(href='debut')
-              img(src='./images/debut.jpg', style='height:70%; width:130%')
+            a.carousel-item(href='wedding.html')
+              img(src='./images/wedding.jpg', style='height:50%; width:100%')
+            a.carousel-item(href='kiddie.html')
+              img(src='./images/kiddie.jpg', style='height:50%; width:100%')
+            a.carousel-item(href='anniversary.html')
+              img(src='./images/anniversary.jpg', style='height:50%; width:100%')
+            a.carousel-item(href='debut.html')
+              img(src='./images/debut.jpg', style='height:50%; width:100%')
     footer.page-footer.white
-      .container
-      center
-        .footer-copyright
-          .container
-            a.black-text Created by
-            a.brown-text.text-lighten-3(href='https://coen3463-m1t8.herokuapp.com/index.html') Jocelle L. Tanqui-on and Jobelle H. San Juan
+        .container
         center
-          a.brown-text.text-lighten-3 © 2016 Party Divas Event Planning. All Rights Reserved.
+          .footer-copyright
+            .container
+              a.black-text Created by
+              i
+                a.brown-text.text-lighten-3(href='https://coen3463-m1t8.herokuapp.com/index.html') Jocelle L. Tanqui-on and Jobelle H. San Juan
+          center
+            a.black-text.text-lighten-3 © 2016 Party Divas Event Planning. All Rights Reserved.
     // Scripts
     script(src='https://code.jquery.com/jquery-2.1.1.min.js')
     script(src='javascripts/materialize.js')
