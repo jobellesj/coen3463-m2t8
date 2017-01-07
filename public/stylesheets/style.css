@@ -6,6 +6,14 @@
  * Made By MaterializeCSS.com
  */
 
+nav i.material-icons{
+  font-size: 30px !important;
+} 
+
+h1 > p {
+  line-height: 75px;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
