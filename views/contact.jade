@@ -41,16 +41,10 @@ html(lang='en')
           br
           h1.header.center.white-text(style='padding-top:3%; font-size:420%')
             p(style='text-shadow:4px 4px 4px #666;') Need an Event Planner?
-          br
-          h1.header.center.white-text
-            p(style='text-shadow:4px 4px 4px #666;') Contact Us Now!
     .container
       form(method='post', action='contact/send')
         h3 Book an Event Now!
         .row
-          .col.s12.m6.l5.offset-l1.valign
-            .card-panel.white(style='height:435px')
-              img(src='./images/details.png', style='height:288px')
           .col.s12.m6.l5
             .card-panel.white
               .form-group
@@ -69,6 +63,10 @@ html(lang='en')
               button.btn.waves-effect.waves-light.pink(type='submit')
                 | Submit 
                 i.material-icons.right send
+
+          .col.s12.m6.l5.offset-l1.valign
+            .card-panel.white(style='height:435px')
+              img(src='./images/details.png', style='height:288px')      
     footer.page-footer.white
         .container
         center
